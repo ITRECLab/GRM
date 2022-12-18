@@ -29,8 +29,7 @@ The result of RC with confidence will be saved as `./outputjson/{loggercomment}_
     Predicted relations need to be post-processed here before homolo eval and exact eval.
 
     Scripts about case study can be found here. 
-2. `head_view_bert.ipynb`: Visulalization of Attention in BERT via [BertViz][bertviz]
-3. `python cross_fold_metrics.py > metrics.tsv`
+2. `python cross_fold_metrics.py > metrics.tsv`
     print results of the cross fold validation to `metrics.tsv`
 
 
